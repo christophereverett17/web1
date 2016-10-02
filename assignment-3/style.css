@@ -8,7 +8,7 @@ body {
     color: #333;
     margin: 0;
 }
-a, a:visted {
+a {
    text-decoration: none;
    color: #d69e00;
 }
@@ -17,92 +17,96 @@ a:hover {
 }
 /* Hero 
 */
-hero {
-    background-color:6445f; text-align:center; overflow: auto;
+
+header {
+    width: 100%;
+    background-color: #16445f;
 }
-hero-card {
+
+.hero {
+    background-color:#6445f; text-align:center; overflow: auto;
+}
+.hero-card {
     border. 2px solid #fff; color. #efefef;
-    padding: 50px; width: BOOpx;
+    padding: 50px; width: B8Opx;
     margin:1OOpx auto 50px auto;
 }
-hero-card-title {
+.hero-card-title {
     font-family: georgia,serif; margin:O;
     font-size:50px:
 }
-hero-card-description { font-family: georgia,serif; font-size:30px:
+.hero-card-description { font-family: georgia,serif; font-size:30px:
 font-weight: 300; margin:20px o;
 }
 
-hero-card-link {
+.hero-card-link {
     text-decoration:none; color:#efefef;
     font-size: lBp;
     border:2px solid #efefef; padding: Spx 20px;
 }
-hero-card-link:hover { color. #D69EOO; border-color. #D69EOO;
+.hero-card-link:hover { color. #D69EOO; border-color. #D69EOO;
 }
 /* Navigation */
-main-nav { 
-    max-width: 800px;
+.main-nav { 
     margin:20px auto;
-    background-color: red;
 }
-nav-link { color: #fff:
+.nav-link { color: #fff:
     text-decoration:none;
     font-size:20px; margin:lOpx 5px; padding: 1Opx lSpx;
     border: 2px solid rgba(255,255,255,O);
 }
-nav-link:hover { color:#FFD86B;
+.nav-link:hover { color:#FFD86B;
     border-color: #FFD86B;
 }
 /*r Main content */
-main-content { padding: 20px; text-align: center;
+.main-content { padding: 20px; text-align: center;
 }
 /* Footer */ footer {
     background-color: #333;
     color: #999; padding: 20px; text-align:center;
 }
-footer-link {
+.footer-link {
     color: #ABBl;
     text-decoration:none;
 }
-footer-link:hover { color: #D69EOO;
+.footer-link:hover { color: #D69EOO;
     text-decoration:underline;
 }
 /* Home */
-card {
+.card {
     background-color: #fff; border: 1px solid #ddd; width: 300px;
     margin:20px auto;
 }
-card-title {
+.card-title {
     padding:1Opx 20px; 
     margin:20px,1Opx;
     font-size: 24px;
 }
 /* About */
-about-list-container { border: 4px solid #ddd; text-align:left; padding: 20px; margin:20px;
+.about-list-container { border: 4px solid #ddd; text-align:left; padding: 20px; margin:20px;
 }
 /* Coffee */
 
-coffee-quote { font-size:30px; color: #l6445f;
+.coffee-quote { font-size:30px; color: #l6445f;
 }
-menu{
+.menu{
     border: 4px solid #ddd; text-align:left;
     padding: 20px;
 }
-dt {
+.dt {
     font-size:20px; font-weight: bold; margin-bottom: 5px;
  
 }
-dd {
+.dd {
     color: #666; margin-left :20px;
     margin-bottom:20px;
 }
 /* Assignments */
 
-assignment-list { border: 4px solid #ddd; padding: 20px;
+.assignment-list { border: 4px solid #ddd; padding: 20px;
     margin:20px auto; width: 860px;
 }
-r Search •t
-search-placeholder { width: 600px;
+/* Search •*/
+.search-placeholder { width: 600px;
     height: 400px; background-color:  #ddd; margin:20px auto; padding: 20px;
 }
