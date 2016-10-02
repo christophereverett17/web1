@@ -15,8 +15,7 @@ a {
 a:hover {
     color: #e4b532;
 }
-/* Hero 
-*/
+/* Hero */
 
 header {
     width: 100%;
@@ -27,24 +26,24 @@ header {
     background-color:#6445f; text-align:center; overflow: auto;
 }
 .hero-card {
-    border. 2px solid #fff; color. #efefef;
-    padding: 50px; width: B8Opx;
-    margin:1OOpx auto 50px auto;
+    border: 2px solid #fff; color: #efefef;
+    padding: 50px; width: 500px;
+    margin:100px auto 50px auto;
 }
 .hero-card-title {
-    font-family: georgia,serif; margin:O;
+    font-family: georgia,serif; margin:0;
     font-size:50px:
 }
 .hero-card-description { font-family: georgia,serif; font-size:30px:
-font-weight: 300; margin:20px o;
+font-weight: 300; margin:20px;
 }
 
 .hero-card-link {
     text-decoration:none; color:#efefef;
-    font-size: lBp;
-    border:2px solid #efefef; padding: Spx 20px;
+    font-size: 18px;
+    border:2px solid #efefef; padding: 5px 20px;
 }
-.hero-card-link:hover { color. #D69EOO; border-color. #D69EOO;
+.hero-card-link:hover { color: #d69e00 border-color: #d69e00;
 }
 /* Navigation */
 .main-nav { 
@@ -52,8 +51,8 @@ font-weight: 300; margin:20px o;
 }
 .nav-link { color: #fff:
     text-decoration:none;
-    font-size:20px; margin:lOpx 5px; padding: 1Opx lSpx;
-    border: 2px solid rgba(255,255,255,O);
+    font-size:20px; margin:10px 5px; padding: 10px 15px;
+    border: 2px solid rgba(255,255,255,0);
 }
 .nav-link:hover { color:#FFD86B;
     border-color: #FFD86B;
@@ -61,15 +60,16 @@ font-weight: 300; margin:20px o;
 /*r Main content */
 .main-content { padding: 20px; text-align: center;
 }
-/* Footer */ footer {
+/* Footer */ 
+footer {
     background-color: #333;
     color: #999; padding: 20px; text-align:center;
 }
 .footer-link {
-    color: #ABBl;
+    color: #ABB1;
     text-decoration:none;
 }
-.footer-link:hover { color: #D69EOO;
+.footer-link:hover { color: #D69E00;
     text-decoration:underline;
 }
 /* Home */
@@ -78,16 +78,17 @@ font-weight: 300; margin:20px o;
     margin:20px auto;
 }
 .card-title {
-    padding:1Opx 20px; 
-    margin:20px,1Opx;
+    padding:10px 20px; 
+    margin:20px,10px;
     font-size: 24px;
+    text-align: center;
 }
 /* About */
 .about-list-container { border: 4px solid #ddd; text-align:left; padding: 20px; margin:20px;
 }
 /* Coffee */
 
-.coffee-quote { font-size:30px; color: #l6445f;
+.coffee-quote { font-size:30px; color: #16445f;
 }
 .menu{
     border: 4px solid #ddd; text-align:left;
@@ -106,7 +107,14 @@ font-weight: 300; margin:20px o;
 .assignment-list { border: 4px solid #ddd; padding: 20px;
     margin:20px auto; width: 860px;
 }
-/* Search •*/
+/* Search */
 .search-placeholder { width: 600px;
     height: 400px; background-color:  #ddd; margin:20px auto; padding: 20px;
+}
+
+.ind {
+    max-width: 500px;
+    margin: 10px auto;
+    background-color: white;
+    padding: 20px 0;
 }
