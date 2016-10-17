@@ -1,3 +1,18 @@
 p {
     background-color: gray;
+    width: 200px;
+    display: inline-block;
+}
+div {
+    border: 2px solid red;
+    width: 4220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    background-color: green;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 200px;
+    display: inline-block;
 }
