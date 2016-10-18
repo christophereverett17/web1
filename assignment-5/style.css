@@ -10,7 +10,6 @@ body {
     color:#333;
     margin:0;
 }
-}
 a {
    text-decoration: none;
    color: #d69e00;
@@ -317,7 +316,8 @@ footer {
 /* Search */
 .search-placeholder { 
     width: 600px;
-    height: 400px; background-color:  #ddd; margin:20px auto; padding: 20px;
+    height: 400px; background-color: #ddd; margin:20px auto; 
+    padding: 20px;
 }
 
 .ind {
