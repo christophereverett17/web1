@@ -2,8 +2,42 @@ body {
     background-color: #333;
 }
 .hero {
-    background-color: #2b4d70;
+    background-color: #e0bb4a;
     padding: 200px 200px 200px 200px;
     background-image: url("blueberriesfade.png");
-    background-size: 400px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+.coffee {
+    background-color: #e0bb4a;
+    padding: 200px 200px 200px 200px;
+    background-image: url("coffee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+.card {
+    background-color: #ffffff;
+    width: 28%;
+    display: inline-block;
+    margin: 20px 2%;
+}
+.spacer {
+    height: 2000px
+}
+.square{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
 }
