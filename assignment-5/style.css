@@ -1,13 +1,15 @@
 /*
 General Styling
 */
-@import'https://fonts.googleapis.com/css family="Roboto" rel="stylesheet">
+*/
+@import 'https://fonts.googleapis.com/css?family=Cormorant|Roboto:100i,300,400,500,500i,700';
 body {
-    font-family: arial, sans-serif;
-    font-weight: 400;
-    background-color: #f1f1f1;
-    color: #333;
-    margin: 0;
+    font-family:roboto,aerial,sans-serif;
+    font-weight:400;
+    background-color:#f1f1f1;
+    color:#333;
+    margin:0;
+}
 }
 a {
    text-decoration: none;
@@ -111,15 +113,14 @@ footer {
 }
 /* About */
 .about-list-container {
-     border-left:5px solid #d69e00; margin-bottom:50px;
-    padding: 20px 50px;
+     border-left:5px solid #d69e00;
+     margin-bottom:50px;
+     padding: 20px 50px;
 }
 .about-photo { 
     width: 200px; height: 200px;
     border-radius: 100px;
     box-shadow: 2px 2px 3px rgba(0, 0,0, 0.3);
-}
-
 }
 .about-list-title {
     font-size:30px; font-weight: 400px; color:#d69e00 ;
