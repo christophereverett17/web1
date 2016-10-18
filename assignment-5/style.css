@@ -34,11 +34,13 @@ header {
     margin:100px auto 50px auto;
 }
 .hero-card-title {
-    font-family: georgia,serif; margin:0;
-    font-size:50px:
+    font-family: georgia,serif;
+    margin:0;
+    font-size:50px;
 }
-.hero-card-description { font-family: georgia,serif; font-size:30px:
-font-weight: 300; margin:20px;
+.hero-card-description { 
+    font-family: georgia,serif; font-size:30px;
+    font-weight: 300; margin:20px;
 }
 
 .hero-card-link {
@@ -46,7 +48,9 @@ font-weight: 300; margin:20px;
     font-size: 18px;
     border:2px solid #efefef; padding: 5px 20px;
 }
-.hero-card-link:hover { color: #d69e00 border-color: #d69e00;
+.hero-card-link:hover { 
+    color: #d69e00;
+    border-color: #d69e00;
 }
 /* Navigation */
 .main-nav { 
@@ -55,7 +59,7 @@ font-weight: 300; margin:20px;
 	margin:20px auto;
 }
 .nav-link { 
-    box-sizing: border-box; color. #fff;
+    box-sizing: border-box; color: #fff;
     text-decoration :none;
     height: 40px ;
     line-height: 38px;
@@ -223,8 +227,10 @@ header {
     font-family: georgia,serif; margin:0;
     font-size:50px:
 }
-.hero-card-description { font-family: georgia,serif; font-size:30px:
-font-weight: 300; margin:20px;
+.hero-card-description { 
+    font-family: georgia,serif; 
+    font-size: 30px:
+    font-weight: 300; margin:20px;
 }
 
 .hero-card-link {
@@ -232,22 +238,26 @@ font-weight: 300; margin:20px;
     font-size: 18px;
     border:2px solid #efefef; padding: 5px 20px;
 }
-.hero-card-link:hover { color: #d69e00 border-color: #d69e00;
+.hero-card-link:hover { 
+    color: #d69e00 border-color: #d69e00;
 }
 /* Navigation */
 .main-nav { 
     margin:20px auto;
 }
-.nav-link { color: #fff:
+.nav-link { 
+    color: #fff:
     text-decoration:none;
     font-size:20px; margin:10px 5px; padding: 10px 15px;
     border: 2px solid rgba(255,255,255,0);
 }
-.nav-link:hover { color:#FFD86B;
+.nav-link:hover {
+    color:#FFD86B;
     border-color: #FFD86B;
 }
 /*r Main content */
-.main-content { padding: 20px; text-align: center;
+.main-content { 
+    padding: 20px; text-align: center;
 }
 /* Footer */ 
 footer {
@@ -273,11 +283,13 @@ footer {
     text-align: center;
 }
 /* About */
-.about-list-container { border: 4px solid #ddd; text-align:left; padding: 20px; margin:20px;
+.about-list-container {
+    border: 4px solid #ddd; text-align:left; padding: 20px; margin:20px;
 }
 /* Coffee */
 
-.coffee-quote { font-size:30px; color: #16445f;
+.coffee-quote { 
+    font-size:30px; color: #16445f;
 }
 .menu{
     border: 4px solid #ddd; text-align:left;
@@ -293,12 +305,14 @@ footer {
 }
 /* Assignments */
 
-.assignment-list { border: 4px solid #ddd; padding: 20px;
+.assignment-list {
+    border: 4px solid #ddd; padding: 20px;
     margin:20px auto; width: 860px;
     text-align: center;
 }
 /* Search */
-.search-placeholder { width: 600px;
+.search-placeholder { 
+    width: 600px;
     height: 400px; background-color:  #ddd; margin:20px auto; padding: 20px;
 }
 
