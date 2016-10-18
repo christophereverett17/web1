@@ -5,7 +5,6 @@ General Styling
 body {
     font-family:roboto,aerial,sans-serif;
     font-weight:400;
-    color:#333;
 }
 a {
    text-decoration: none;
@@ -66,7 +65,7 @@ a:hover {
     border-color: #FFD86B;
     background-color: rgba(0,0, 0, 0.4);
 }
-/*r Main content */
+/* Main content */
 .main-content { 
     padding: 20px; text-align: center;
      margin: 50px auto;
@@ -208,11 +207,6 @@ header {
 .hero {
      text-align:center; 
      overflow: auto;
-}
-.hero-card {
-    border: 2px solid #fff; color: #efefef;
-    padding: 50px; width: 500px;
-    margin:100px auto 50px auto;
 }
 .hero-card-title {
     font-family: georgia,serif; margin:0;

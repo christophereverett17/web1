@@ -1,0 +1,9 @@
+body {
+    background-color: #333;
+}
+.hero {
+    background-color: #2b4d70;
+    padding: 200px 200px 200px 200px;
+    background-image: url("blueberriesfade.png");
+    background-size: 400px auto;
+}
