@@ -24,7 +24,7 @@ header {
 }
 
 .hero {
-    background-color:#64455f; text-align:center; overflow: auto;
+    background-color:#64455f; 
 }
 .hero-card {
     border: 2px solid #fff; color: #efefef;
@@ -215,7 +215,8 @@ header {
 }
 
 .hero {
-    background-color:#6445f; text-align:center; overflow: auto;
+     text-align:center; 
+     overflow: auto;
 }
 .hero-card {
     border: 2px solid #fff; color: #efefef;
