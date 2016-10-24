@@ -1,7 +1,7 @@
 /*
 General Styling
 */
-@import 'https://fonts.googleapis.com/css?family=Cormorant|Roboto:100i,300,400,500,500i,700';
+@import https://fonts.googleapis.com/css?family=Cormorant|Roboto:100i300i400i500i500i700i
 body {
     font-family:roboto,aerial,sans-serif;
     font-weight:400;
@@ -106,7 +106,7 @@ footer {
     text-decoration:none; color: #333; transition: all .2s  ease;
 }
 .card:hover {
-    transform-style: (1.025);
+    transform-style: 1.025;
     box-shadow: 0px 2px 3px rgba(0,0, 0,0.3);
 }
 
@@ -290,20 +290,7 @@ header {
     color: #d69e00; 
     border-color: #d69e00;
 }
-/* Navigation */
-.main-nav { 
-    margin:20px auto;
-}
-.nav-link { 
-    color: #fff;
-    text-decoration:none;
-    font-size:20px; margin:10px 5px; padding: 10px 15px;
-    border: 2px solid rgba(255,255,255,0);
-}
-.nav-link:hover {
-    color:#FFD86B;
-    border-color: #FFD86B;
-}
+
 /* Footer */ 
 footer {
     background-color: #333;
