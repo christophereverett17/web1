@@ -79,9 +79,11 @@ a:hover {
 }
 /* Main content */
 .main-content { 
-    padding: 20px; text-align: center;
      margin: 50px auto;
     width: 960px;
+}
+.clear {
+    clear: both;
 }
 /* Footer */ 
 footer {
@@ -301,10 +303,6 @@ header {
 .nav-link:hover {
     color:#FFD86B;
     border-color: #FFD86B;
-}
-/*r Main content */
-.main-content { 
-    padding: 20px; text-align: center;
 }
 /* Footer */ 
 footer {
