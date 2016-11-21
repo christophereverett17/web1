@@ -1,0 +1,57 @@
+
+/* Navigation */
+.main-nav { 
+	max-width:960px;
+	margin:20px auto;
+}
+.nav-link { 
+    box-sizing: border-box; color: #000000;
+    text-decoration :none;
+    height: 40px ;
+    line-height: 38px;
+    font-size:20px;
+    font-family: cormorant, cursive; display:  inline-block;
+    margin: 10px 5px; padding: 0 15px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255,0); transition:all 0.2s ease;
+}
+.nav-link:hover { 
+    color: #FFD86B;
+    border-color: #FFD86B;
+    background-color: rgba(0,0, 0, 0.4);
+}
+/*hero*/
+.hero-card-title {
+    background-image: url("images/backgroundindex.png");
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+    margin:0;
+    font-size:50px;
+    font-family: georgia,serif; 
+}    
+header {
+    width: 100%;
+    background-color: #16445f;
+}
+.hero {
+     text-align: center; 
+     overflow: auto;
+    background-color: #FAEBD7;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.hero-card {
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.73);
+    color: #efefef;
+    margin: 110px auto 60px auto;
+    padding: 50px;
+    max-width: 960px;
+    text-align: center;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
+}
