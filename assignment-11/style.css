@@ -66,10 +66,13 @@ header {
     box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
 }
 .ind {
-    text-align: left;
+    text-align:  ;
     
 }
 .main-content {
   margin: 110px auto 60px auto;  
   padding: 50px;
+}
+.card {
+    text-align: left;
 }
