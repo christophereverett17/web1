@@ -1,0 +1,8 @@
+Get top splash image to correct size
+Get text to right size
+Make hover work over image 
+Make all links work
+change color of backgrounds
+Fix spacing with nav
+Rewite first page
+change size of pages
